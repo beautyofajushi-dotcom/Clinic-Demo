@@ -16,16 +16,28 @@ no build step), so it runs anywhere.
 | Dr. Agrawal     | `doctor.html`  | Doctor profile, philosophy quote, education & credential timeline, memberships |
 | Contact / Book  | `contact.html` | Appointment request form with success state & reference ID, info cards, hours, emergency strip, landmark cards |
 
-## Features
+## Features (v2 — dark theme + cinematic motion)
 
+- **Two themes**: warm porcelain light mode & *midnight-emerald + champagne-gold* dark mode,
+  toggled from the header (moon/sun button), persisted in `localStorage`,
+  respects `prefers-color-scheme` on first visit, no flash-of-wrong-theme
+- **Cinematic motion**: blur+rise scroll reveals, Ken Burns "breathing" imagery,
+  hero parallax depth, 3D tilt cards, button shine sweeps, gold scroll-progress bar,
+  edge-masked services marquee, animated counters, auto-playing testimonial slider
 - Premium design system: Fraunces + Manrope typography, deep-pine / mint / gold palette
-- Sticky glass header, topbar, mobile drawer nav
-- Scroll-reveal animations, animated counters, hover micro-interactions
-- Auto-playing testimonial slider with dots & arrows
-- Smooth accordion FAQ
-- Demo booking form (client-side only, generates a reference ID)
-- Fully responsive, respects `prefers-reduced-motion`
+- Sticky glass header, topbar, mobile drawer nav (with in-drawer Book CTA)
+- Smooth accordion FAQ, demo booking form (client-side only, reference ID)
+- Fully responsive, honours `prefers-reduced-motion` everywhere
 - Original AI-generated imagery (`assets/img/`)
+
+## Versions (git tags)
+
+- `v1-premium-light` — original light-only premium build
+- `v2-dark-cinematic` — dark theme + cinematic motion + placement/bug fixes
+
+```bash
+git checkout v1-premium-light   # or v2-dark-cinematic
+```
 
 ## Run it
 
