@@ -20,7 +20,8 @@ no build step), so it runs anywhere.
 
 - **Two themes**: warm porcelain light mode & *midnight-emerald + champagne-gold* dark mode,
   toggled from the header (moon/sun button), persisted in `localStorage`,
-  respects `prefers-color-scheme` on first visit, no flash-of-wrong-theme.
+  **dark is the first-visit showpiece default** (sun button switches to light),
+  no flash-of-wrong-theme.
   Deep-linkable: append `?theme=dark` or `?theme=light` to any page URL.
 - **Cinematic motion**: blur+rise scroll reveals, Ken Burns "breathing" imagery,
   hero parallax depth, 3D tilt cards, button shine sweeps, gold scroll-progress bar,
